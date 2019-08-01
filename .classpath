@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.8.RELEASE/83ab599b042a4805bbee71b6241e9d073022d704/spring-context-5.1.8.RELEASE.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.8.RELEASE/837c4548bff5d8795b6c436120512f8cc9af6fb8/spring-context-5.1.8.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.8.RELEASE/e35fa81d0142ef7c1247a7dee8b1ef2dd78c6322/spring-beans-5.1.8.RELEASE.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.8.RELEASE/70ce5cb63540ea0a184a49d454844e9d9f21fbd5/spring-beans-5.1.8.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.8.RELEASE/d2b6359b3b502ce917879990fbee99723bfa78c5/spring-webmvc-5.1.8.RELEASE.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.8.RELEASE/1b39bc8f5e65621e891efb0dc6e2d5cf7e443ae3/spring-webmvc-5.1.8.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.8.RELEASE/6d7134733f05133d82440172c5f6f9fe001db7ed/spring-web-5.1.8.RELEASE.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.8.RELEASE/4e19ca13005f5175b8cf87c0d3a0df681d2e55c/spring-web-5.1.8.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.21/225a44fe65e9832f896e09f343ce107d38f3ee1b/tomcat-embed-core-9.0.21.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.21/70f76ccdee679e557a0787debe05d7ab783d8b55/tomcat-embed-core-9.0.21-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.8.RELEASE/37fd45c92cfd05b9ad173ee1184ec4221e0f931f/spring-core-5.1.8.RELEASE.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.8.RELEASE/c69e51041b6606d93b8a452714b184a8c8f5f9a6/spring-core-5.1.8.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.8/448003bc1b234aac04b58e27d7755c12c3ec4236/lombok-1.18.8.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.8/1aa07070912b2caee846638641606f3b2f1f440a/lombok-1.18.8-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.6.RELEASE/b8a75ec9a9c570290523c4308c2255fbea6746c0/spring-boot-2.1.6.RELEASE.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.6.RELEASE/b351c79404e096cc28d45f8395f53cc856989098/spring-boot-2.1.6.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.6.RELEASE/875d84cfa6d5655bd11238c229e7acedf344024b/spring-boot-autoconfigure-2.1.6.RELEASE.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.6.RELEASE/cd87ebca4cb4f40ace39540e119173a3922933be/spring-boot-autoconfigure-2.1.6.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/3.2.0/6c66db1c636ee90beb4c65fe34abd8ba9396bca6/HikariCP-3.2.0.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/3.2.0/214ae6e5db95b776e38493ca5808e3a7c4a574e8/HikariCP-3.2.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.m2/repository/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar" sourcepath="C:/Users/수진/.m2/repository/org/mybatis/mybatis/3.4.2/mybatis-3.4.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="mybatis-3.4.2.jar"/>
+			<attribute name="maven.groupId" value="org.mybatis"/>
+			<attribute name="maven.artifactId" value="mybatis"/>
+			<attribute name="maven.version" value="3.4.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.m2/repository/org/mybatis/mybatis-spring/2.0.1/mybatis-spring-2.0.1.jar" sourcepath="C:/Users/수진/.m2/repository/org/mybatis/mybatis-spring/2.0.1/mybatis-spring-2.0.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="mybatis-spring-2.0.1.jar"/>
+			<attribute name="maven.groupId" value="org.mybatis"/>
+			<attribute name="maven.artifactId" value="mybatis-spring"/>
+			<attribute name="maven.version" value="2.0.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/caf033a4a7c37b4a8ff3ea084cba591539b0b69/commons-io-2.5-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar" sourcepath="C:/Users/수진/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="tomcat-embed-core-9.0.21.jar"/>
+			<attribute name="maven.groupId" value="org.apache.tomcat.embed"/>
+			<attribute name="maven.artifactId" value="tomcat-embed-core"/>
+			<attribute name="maven.version" value="9.0.21"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.4/9205229878f3d62fbd3a32a0fb6be2d6ad8589a9/aspectjweaver-1.9.4.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.4/2966bd81d1df3fb51d018e59413de6965a845fa7/aspectjweaver-1.9.4-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.1.8.RELEASE/a4941bf2e1a32e2d102dfeff8d542db8fd99a912/spring-tx-5.1.8.RELEASE.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.1.8.RELEASE/ec3f0a308aba6b4fdba06e449de5566dcc7f8fe2/spring-tx-5.1.8.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.1.8.RELEASE/c013c5603a05bee2a80cc2ec8f3fc11b15d4de3a/spring-aop-5.1.8.RELEASE.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.1.8.RELEASE/c15860849c0fd44411b990181ffb1d49fb5ddf69/spring-aop-5.1.8.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.1.8.RELEASE/2a629b975a2815772b947686d4936a5c764fe4f6/spring-test-5.1.8.RELEASE.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.1.8.RELEASE/bff0205b0e1a8219a07309aa90589ad71414ed55/spring-test-5.1.8.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.1.6.RELEASE/6a3f167e76e4dee556c9892058e60b1445c9576b/spring-boot-test-2.1.6.RELEASE.jar" sourcepath="C:/Users/수진/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.1.6.RELEASE/dc598a0a60e1be5442a5f26509cf4d467673fd3b/spring-boot-test-2.1.6.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
