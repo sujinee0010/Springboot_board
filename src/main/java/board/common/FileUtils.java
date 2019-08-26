@@ -12,8 +12,8 @@ import org.springframework.util.ObjectUtils;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
-import board.board.dto.BoardFileDto;
-
+import board.dto.BoardFileDto;
+//FileUtils 클래스를 스프링의 빈으로 등록
 @Component
 public class FileUtils {
 	
