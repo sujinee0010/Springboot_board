@@ -41,14 +41,13 @@
 					</tr>
 				</tbody>
 			</table>
-			<input type="hidden" id="boardIdx" name="boardIdx" th:value="${board.boardIdx}">
-			<input type="hidden">
+			<input type="hidden" id="boardIdx" name="boardIdx" th:value="${board.boardIdx }">
+			<input type="hidden" id="method" name="_method"/>
 		</form>
 		
 		<div class="file_list">
-			<a th:each="list : ${board.fileList}" th:href="@{/board/downloadBoardFile.do(idx=${list.idx}, boardIdx=${list.boardIdx})}" th:text="|${list.originalFileName} (${list.fileSize} kb)|"></a>
+			<a th:each="list : ${board.fileList}" th:href="@{/jpa/board/file(idx=${list.idx}, boardIdx=${board.boardIdx})}" th:text="|${list.originalFileName} (${#numbers.formatInteger(list.fileSize/1000, 1, 'DEFAULT')} kb)|"></a>
 		</div>
-		
 		
 		<a href="#this" id="list" class="btn">목록으로</a>
 		<a href="#this" id="edit" class="btn">수정하기</a>
@@ -58,19 +57,25 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
+			var boardIdx = $("#boardIdx").val();
+			
 			$("#list").on("click", function(){
-				location.href = "/board/openBoardList.do";
+				location.href = "/jpa/board/";
 			});
 			
 			$("#edit").on("click", function(){
+				$("#method").val("put");
+				
 				var frm = $("#frm")[0];
-				frm.action = "/board/updateBoard.do";
+				frm.action = "/jpa/board/"+boardIdx;
 				frm.submit();
 			});
 			
 			$("#delete").on("click", function(){
+				$("#method").val("delete");
+				
 				var frm = $("#frm")[0];
-				frm.action = "/board/deleteBoard.do";
+				frm.action = "/jpa/board/"+boardIdx;
 				frm.submit();
 			});
 		});

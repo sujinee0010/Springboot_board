@@ -13,16 +13,17 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import board.dto.BoardFileDto;
+import board.entity.BoardFileEntity;
 //FileUtils 클래스를 스프링의 빈으로 등록
 @Component
 public class FileUtils {
-	
-	public List<BoardFileDto> parseFileInfo(int boardIdx, MultipartHttpServletRequest multipartHttpServletRequest) throws Exception{
+	 //jpa의 @OneToMany 어노테이션으로 연관관계를 가지고 있기 때문에 첨부파일 클래스에 게시글 번호 저장 필요 없음
+	public List<BoardFileEntity> parseFileInfo( MultipartHttpServletRequest multipartHttpServletRequest) throws Exception{
 		if(ObjectUtils.isEmpty(multipartHttpServletRequest)){
 			return null;
 		}
 		
-		List<BoardFileDto> fileList = new ArrayList<>();
+		List<BoardFileEntity> fileList = new ArrayList<>();
 		
 		DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyyMMdd"); 
     	ZonedDateTime current = ZonedDateTime.now();
@@ -60,11 +61,11 @@ public class FileUtils {
 					}
 					
 					newFileName = Long.toString(System.nanoTime()) + originalFileExtension;
-					BoardFileDto boardFile = new BoardFileDto();
-					boardFile.setBoardIdx(boardIdx);
+					BoardFileEntity boardFile = new BoardFileEntity();
 					boardFile.setFileSize(multipartFile.getSize());
 					boardFile.setOriginalFileName(multipartFile.getOriginalFilename());
 					boardFile.setStoredFilePath(path + "/" + newFileName);
+					boardFile.setCreatorId("admin");
 					fileList.add(boardFile);
 					
 					file = new File(path + "/" + newFileName);

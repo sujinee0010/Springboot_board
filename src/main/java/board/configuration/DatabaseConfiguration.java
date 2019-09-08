@@ -1,5 +1,7 @@
 package board.configuration;
 
+import java.util.Properties;
+
 import javax.sql.DataSource;
 
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -32,6 +34,8 @@ public class DatabaseConfiguration {
 	@Autowired
 	private ApplicationContext applicationContext;
 	
+
+	
 	@Bean
 	@ConfigurationProperties(prefix="mybatis.configuration")
 	public org.apache.ibatis.session.Configuration mybatisConfig(){
@@ -52,6 +56,13 @@ public class DatabaseConfiguration {
 		System.out.println(dataSource.toString());
 		return dataSource;
 		}
+	
+	//JPA 설정 빈 등록
+	@Bean
+	@ConfigurationProperties(prefix="spring.jpa")
+	public Properties hibernateConfig(){
+		return new Properties();
+	}
 	
 	
 	@Bean 
